@@ -22,7 +22,7 @@ func Getcwd() (dir string) {
 }
 
 // Closedir - Close directory's handle
-func Closedir(fd int) (err error) {
+//func Closedir(fd int) (err error) {
 
-	return syscall.Close(fd)
-}
+//	return syscall.Close(fd)
+//}
